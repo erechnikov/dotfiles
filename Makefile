@@ -1,6 +1,6 @@
 default: config bat config-files git gnupg htop scripts tmux vim zsh
 
-linux: config bat compton config-files dunst git gnupg htop i3 lf mpv pcmanfm pet polybar scripts sxhkd systemd termite tmux vim x11 xfce4 zathura zsh
+linux: config bat compton config-files dunst git gnupg htop lf mpv pcmanfm pet polybar scripts sxhkd systemd termite tmux vim zathura zsh
 
 darwin: config bat config-files git gnupg htop karabiner lf mpv pet scripts tmux vim zsh
 
@@ -24,9 +24,6 @@ gnupg: config
 
 htop: config
 	stow --no-fold -R htop
-
-i3: config
-	stow --no-fold -R i3
 
 karabiner: config
 	stow --no-fold -R karabiner
@@ -63,12 +60,6 @@ tmux: config
 
 vim: config
 	stow --no-fold -R vim
-
-x11: config
-	stow --no-fold -R x11
-
-xfce4: config
-	stow --no-fold -R xfce4
 
 zathura: config
 	stow --no-fold -R zathura

@@ -1,7 +1,7 @@
 [user]
-	name = Antoniy Chonkov
-	email = antoniy@chonkov.net
-	signingkey = 5F771733CEA1C20ADC135ED85708B391BD2997DC
+	name = Emil Rechnikov
+	email = emil@rechnikov.com
+	#signingkey =
 [alias]
   ; list all aliases
   la = "!git config -l | grep alias | cut -c 7-"
@@ -131,7 +131,7 @@
 	process = git-lfs filter-process
 	required = true
 [commit]
-	gpgsign = true
+  gpgsign = false
   verbose = true
 [include]
   path = .gitconfig.local

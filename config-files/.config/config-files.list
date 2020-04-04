@@ -3,7 +3,6 @@
 # table below using "Tabularize /|" command
 NVIM    ~/.config/nvim/init.vim
 Tmux    ~/.tmux.conf
-i3wm    ~/.config/i3/config
 Polybar    ~/.config/polybar/config
 LF file manager    ~/.config/lf/lfrc
 ZSH Shell    ~/.config/zsh/.zshrc
